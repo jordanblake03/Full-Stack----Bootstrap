@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+/* footer link */
+.col-6>a {
+    display: block;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Pushes the navbar items to the left */
+    max-height: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    text-align: left; /* Aligns the text of navbar links to the left */
+  }
+
+#shop-btn{
+    background-color:#ff8100;
+}
+
+#about {
+    margin-top: -50px; /* Adjust as needed */
+}
+
+/* width of every cards on product section */
+#card-width {
+    width: 18rem;
+}
+
+.carousel-item img {
+    height: 240px; /* Adjust as needed */
+    object-fit: cover;
+  }
+
+  #photoCarousel .carousel-item {
+    height: 900px; /* Adjust this value to increase/decrease the height */
+    margin-top: -50px; /* Adjust as needed */
+
+  }
+  #photoCarousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1000px; /* Adjust as needed */
+  }
+
+
+/* categories nav link */
+
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    max-height: 50px;
+  }
+
+
+
+@media (max-width: 768.98px) {
+    #input-form {
+        width: 35%;
+    }
+}
+
+
+
+/* responsive blog post. modify the width of image in each breakpoints */
+
+@media (min-width: 768px) {
+    .bg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg {
+        width: 230px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 578px) {
+    .bg {
+        width: 100%;
+    }
+}

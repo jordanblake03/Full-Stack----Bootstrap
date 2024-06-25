@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRASCHE | Online Shop</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4e855eb8f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container pt-3">
+        <div class="input-group">
+            <a class="navbar-brand" href="#"> <img alt="logo" class="me-3 me-md-5" src="img\crasche_logo.png"></img></a>
+
+            <input type="text" id="input-form" class="form-control" placeholder="Search"
+                aria-label="Text input with dropdown button">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">All type</button>
+            <button title="Search" class="btn btn-primary d-none d-lg-block"><i
+                    class="fa-solid fa-magnifying-glass rounded d-none d-lg-block"></i></button>
+
+            <div class="ms-md-5 mt-2 mt-md-0">
+                <a type="button" class="btn btn-outline-primary fw-500 rounded">
+                    <i class="fa-solid fa-heart me-lg-2"></i>
+                    <p class="d-none d-lg-inline">Wishlist</p>
+                </a>
+                <a type="button" class="btn btn-outline-primary fw-500 rounded ">
+                    <i class="fa-solid fa-cart-shopping me-lg-2"></i>
+                    <p class="d-none d-lg-inline">My Cart</p>
+
+                </a>
+            </div>
+
+            <ul class="dropdown-menu  dropdown-menu-start">
+                <li><a class="dropdown-item" href="#">Best</a></li>
+                <li><a class="dropdown-item" href="#">Special</a></li>
+                <li><a class="dropdown-item" href="#">Latest</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+            </div>
+    </div>
+    <section id="home" class="py-5">
+        <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/home 1.jpg" class="d-block w-100" alt="Photo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home 2.jpg" class="d-block w-100" alt="Photo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home 3.jpg" class="d-block w-100" alt="Photo 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home 4.jpg" class="d-block w-100" alt="Photo 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <div class="py-5">
+        <div class="container">
+            <h3 class="fw-bold mb-sm-3 mb-md-5 text-center text-md-start">Products</h3>
+
+            <div class="row g-3 d-flex justify-content-evenly">
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/band 1.jpg" class="d-block w-100" alt="Polka-Dot Headband, On head">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/band 2.jpg" class="d-block w-100" alt="Purple Headband">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/band 3.jpg" class="d-block w-100" alt="Polka Dot Headband">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/band 4.jpg" class="d-block w-100" alt="Dark Blue Headband">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$48.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Middie For Figure Skating</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/knit 1.jpg" class="d-block w-100" alt="Knit Hat, On Head, Black">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/knit 2.jpg" class="d-block w-100" alt="Knit Hat, On Head, Blue">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/knit 3.jpg" class="d-block w-100" alt="Knit Hat, Black">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/knit 4.jpg" class="d-block w-100" alt="Knit Hat, Blue">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/knit 5.jpg" class="d-block w-100" alt="Padding Inside">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$39.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Summer Knit Hat</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/wknit1.png" class="d-block w-100" alt="Knit Hat, On Head, Orange">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/wknit2.png" class="d-block w-100" alt="Knit Hat, On Head, Back, Orange">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/wknit3.png" class="d-block w-100" alt="Knit Hat, Orange">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/wknit4.png" class="d-block w-100" alt="Knit Hat, Blue">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/wknit6.png" class="d-block w-100" alt="Padding Inside">
+                            </div>
+                            
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$38.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Winter Knit Middie</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/curler1.jpg" class="d-block w-100" alt="Knit Hat, On Head, Back, Orange">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/curler2.jpg" class="d-block w-100" alt="Knit Hat, in Action">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/curler3.jpg" class="d-block w-100" alt="Knit Hat, Orange">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/curler4.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+                          
+                            
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$36.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Curler</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/bump1.jpg" class="d-block w-100" alt="Bump Hat, In action">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/bump2.jpg" class="d-block w-100" alt="Bump Hat, In action">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/bump3.jpg" class="d-block w-100" alt="Bump Hat, In action">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/bump4.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/bump5.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+                          
+                            
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$39.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Bump Cap</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/mesh1.jpg" class="d-block w-100" alt="Athletic Mesh Hat, White">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mesh2.jpg" class="d-block w-100" alt="Athletic Mesh Hat, Black">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mesh3.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$38.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Athletic Mesh Hat</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/smiddie1.jpg" class="d-block w-100" alt="Middie For Soccer, White">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/smiddie2.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/smiddie3.jpg" class="d-block w-100" alt="Middie For Soccer, Headband">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$34.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CRASCHE Middie For Soccer</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card" id="card-width">
+
+                    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/trash1.jpg" class="d-block w-100" alt="Thrashe hat, In Action">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/trash2.png" class="d-block w-100" alt="Thrashe hat, Blakc">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/trash3.jpg" class="d-block w-100" alt="Padding">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/trash3.jpg" class="d-block w-100" alt="Thrashe hat, In Action">
+                            </div>
+
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">$34.95</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Thrashe Hat</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <a href="#" role="button" class="btn btn-primary card-link py-2 px-4">Add to cart</a>
+                        <a title="Add to cart" href="#" class="btn btn-outline-primary card-link">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="py-5 px-3">
+                    <div class="container py-5">
+                        <h3 class="fw-bold  text-center text-md-start mb-3">News</h3>
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star fs-1 text-primary"></i>
+                                </div>
+
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">Crasche New York Introduces the New “3” TYPE Workplace Protective Hat</h6>
+                                    <p class="text-muted">Crasche® New York announces the introduction of its latest product, the “3” TYPE protective hat. The product is ideal for workmen who do not wear workplace head protection, but should.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star  fs-1 text-primary"></i>
+                                </div>
+
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">
+                                        Crasche Appeared on Sports Palooza Radio Show</h6>
+                                    <p class="text-muted">On April 3, 2014, Sports Palooza Radio Show had Bob and Brian Cleva, who invented Crasche, a protective sports hat that is actually a helmet to protect from brain injuries and concussions. Listen to the segment below.</p>
+                                </div>
+                            </div>
+
+
+                            <div class=" col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star  fs-1 text-primary"></i>
+                                </div>
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">Crasche New York Announces Middie Band</h6>
+                                    <p class="text-muted">Crasche® New York announces the introduction of its latest product, the Middie band. The product is ideal for figure skating, soccer, field hockey, and girls lacrosse.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star  fs-1 text-primary"></i>
+                                </div>
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">Crasche New York Announces New Protective Elements That Can Be Inserted Inside a Baseball Cap</h6>
+                                    <p class="text-muted">Crasche™ New York has launched an effective, yet stylish product that can be inserted inside a baseball cap to help prevent head injuries.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star  fs-1 text-primary"></i>
+                                </div>
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">Long Island Press.com</h6>
+                                    <p class="text-muted">Many years ago, Robert Cleva, who runs a commercial real estate business in Woodbury, fell off his bike, landed on the grass and hit his head.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+                                <div class="bg-white shadow-sm rounded-circle p-3">
+                                    <i class="fa-solid fa-star fs-1 text-primary"></i>
+                                </div>
+                                <div class="ms-3 mt-md-5">
+                                    <h6 class="h6 fw-bold">Protective headgear maker at odds with U.S. Lacrosse</h6>
+                                    <p class="text-muted">Robert Cleva has been involved in helmet making for years, even patenting a design for a bike helmet after he was dissatisfied with those on the market.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <section id="about" class="py-5 bg-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="h3 fw-bold mb-3 text-center text-md-start">About Us</h3>
+                                <h4>Impact-Resistant Protective Sports Hat</h4>
+                                <p class="lead text-muted">
+                                    Ten years ago, I took a nasty spill while cycling. Luckily, I landed on the grass. I knew then it was time to get a helmet. But I never did.
+
+Instead, I decided to create a hat that would offer a lot of impact protection, but would have enough style that people like me would wear it. That was the start of the Crasche hat.
+
+It took years to perfect the proper style and fit and to engineer the impact-resistant combination of materials.
+
+The Crasche hat is ideal for children and adults who should wear a helmet or hard hat, but don’t. It is not designed to replace a helmet, but it is certainly a whole lot better than nothing on your head.
+It can be used while skiing, snowboarding, ice skating, biking, hiking, skateboarding, rollerblading and for other sports where players don’t currently wear helmets, such as girls lacrosse, girls field hockey and touch football. It can also be used in a non-sports environment, where protective headgear is important, but a helmet is not suitable, such as in law enforcement or by the military.
+
+It’s washable, and the protective inserts are designed to be easily removed and re-inserted. It’s a cool hat to wear, with or without the protective inserts.
+
+Crasche is now a family business and the protective hats are made here in America.
+
+Give it a try and return it if you are not fully satisfied.
+
+Sincerely,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="h3 fw-bold mb-3 text-center text-md-start">Contact</h3>
+                                <h4>Impact-Resistant Protective Sports Hat</h4>
+                                <p class="lead text-muted">
+                                    Crasche New York
+                                    2059 Merrick Road
+                                    </p>
+                                    <p class="lead text-muted">
+                                    #288
+                                    </p>
+                                    <p class="lead text-muted">
+                                    Merrick, NY 11566
+                                    </p>
+                                    <p class="lead text-muted">
+                                    (516) 364-0065
+                                    </p>
+                                    <p class="lead text-muted">
+                                    Bryan@crasche.com
+                                    </p>
+                                    
+                                    <p class="lead text-muted">
+                                   <h4>Return Address:</h4>
+                                    </p>
+                                    <p class="lead text-muted">
+                                    Crasche New York
+                                    </p>
+                                    <p class="lead text-muted">
+                                    2059 Merrick Road
+                                    </p>
+                                    <p class="lead text-muted">
+                                    #288
+                                    </p>
+                                    <p class="lead text-muted">
+                                    Merrick, NY 11566</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="py-5">
+                    <div class="container">
+
+                        <div class="row d-flex">
+
+                            <div class="col-md-12 col-lg-3 mb-3">
+
+                                <img alt="logo" src="img\crasche_logo.png"></img>
+                                <p class="mt-4 text-muted">© 2024 Jordan Blake<br>
+                                    All rights reserved.</p>
+
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+
+                                <h6 class="h6 fw-bold">Store</h6>
+
+                                <a href="#about" class="text-decoration-none text-muted">About us</a>
+                                <a href="#home" class="text-decoration-none text-muted">Home Page</a>
+                               
+        
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <h6 class="h6 fw-bold">Information</h6>
+                                <a href="#about" class="text-decoration-none text-muted">About us</a>
+                                <a href="#contact" class="text-decoration-none text-muted">Contact</a>
+                              
+                               
+                            </div>
+
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 mt-3 mt-md-0">
+                                <h6 class="h6 fw-bold">Support</h6>
+                                <a href="#about " class="text-decoration-none text-muted">About us</a>
+                                <a href="#" class="text-decoration-none text-muted">Donate</a>
+                        
+                                
+                            </div>
+
+                            <div class="col-lg-3 mt-3 mt-lg-0">
+
+                                <h6 class="h6 fw-bold">Newsletter</h6>
+                                <p class="text-muted">Stay in touch with latest updates about our products and offers
+                                </p>
+
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary" type="button">Join</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+</body>
+
+</html>
