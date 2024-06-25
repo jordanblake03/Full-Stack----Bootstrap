@@ -8,4 +8,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Description: This is a website I made for crasche
 
-here is a photo of my website:
+here is a photo of my website:![Capture1](https://github.com/jordanblake03/Full-Stack----Bootstrap/assets/165067384/06c11952-52e1-4425-bba9-6fd643238d55)
